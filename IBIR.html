@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Intelligent Broken Image Restorer</title>
+    
+</head>
+<body>
+    <h1>Intelligent Broken Image Restorer</h1>
+    <p>Welcome to the Intelligent Broken Image Restorer! This application allows you to restore broken images with ease. Simply select the image you want to restore, preview the restored image, and make any additional enhancements before saving the final result.</p>
+    <h2>Select Image</h2>
+    <form>
+        <input type="file" id="imageInput" accept="image/*" multiple><br><br>
+        <input type="submit" value="Restore">
+    </form>
+    <h2>Preview</h2>
+    <img id="previewImage" src="" alt="Preview of restored image">
+    <h2>Enhancements</h2>
+    <label for="brightness">Brightness:</label><br>
+    <input type="range" id="brightness" min="-100" max="100" value="0"><br><br>
+    <label for="contrast">Contrast:</label><br>
+    <input type="range" id="contrast" min="-100" max="100" value="0"><br><br>
+    <label for="saturation">Saturation:</label><br>
+    <input type="range" id="saturation" min="-100" max="100" value="0"><br><br>
+    <label for="sharpness">Sharpness:</label><br>
+    <input type="range" id="sharpness" min="-100" max="100" value="0"><br><br>
+    <button id="saveButton">Save</button>
+    <script src="script.js">
+        // Add your JavaScript code here
+            </script>
+</body>
+</html>
